@@ -79,3 +79,10 @@ s = np.random.normal(0,1,1000)
 
 import matplotlib.pyplot as plt
 plt.hist(s)
+
+
+
+
+## 23.02.21
+# [[1,2],[3,4]] -> [1,2,3,4]
+np.cumsum(a)
